@@ -1,6 +1,20 @@
 module Main where
 
-import Lib
+import           Poly1
+import           Poly2
+import           Poly3
+import           Poly4
+import           Poly5
 
 main :: IO ()
-main = someFunc
+main = do
+    putStrLn "\nPoly1.someFunc:"
+    Poly1.someFunc
+    putStrLn "\nPoly2.someFunc:"
+    Poly2.someFunc
+    putStrLn "\nPoly3.someFunc:"
+    Poly3.someFunc
+    putStrLn "\nPoly4.someFunc:"
+    Poly4.someFunc
+    putStrLn "\nPoly5.someFunc:"
+    Poly5.someFunc
