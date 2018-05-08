@@ -17,5 +17,9 @@ someFunc = do
 
     logBuilder "Some issue with" companyId
 
+-- Output:
+-- Some issue with CompanyId 4
+
+
 -- But defining new instances for every type is a lot of work!
 

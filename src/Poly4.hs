@@ -27,5 +27,10 @@ someFunc = do
         user = Wrap "Olle"
 
     logBuilder "User got a 500" user companyId
+
+-- Output:
+-- User got a 500 UserName:Olle CompanyId:8
+
+
 -- But what about log levels?
 

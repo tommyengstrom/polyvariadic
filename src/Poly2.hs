@@ -27,5 +27,9 @@ someFunc = do
         companyId = 8
 
     logBuilder "Some issue with" companyId
+
+-- Output:
+-- Some issue with 8
+
 -- But I still have to make it clear in the string that it's a CompanyId...
 

@@ -1,5 +1,6 @@
 module Main where
 
+import           NoPoly
 import           Poly1
 import           Poly2
 import           Poly3
@@ -8,6 +9,8 @@ import           Poly5
 
 main :: IO ()
 main = do
+    putStrLn "\nNoPoly.someFunc:"
+    NoPoly.someFunc
     putStrLn "\nPoly1.someFunc:"
     Poly1.someFunc
     putStrLn "\nPoly2.someFunc:"

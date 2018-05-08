@@ -16,6 +16,8 @@ someFunc = do
     let errorString = "I got access denied or something" :: String
         nrOfThings = 8 :: Int
     logBuilder errorString "Current number of things:" (show nrOfThings)
+-- Output
+-- I got access denied or something Current number of things: 8
 
 -- But it's annoying having to make each part of it a string...
 
