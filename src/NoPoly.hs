@@ -17,6 +17,5 @@ someFunc = do
                 ++ L.intercalate ", " problemList
 
 -- Output
--- [Error] Problems for CompanyId:323Too many chairs, Too few tables
 -- [Error] Problems for CompanyId:323 Too many chairs, Too few tables
 --
